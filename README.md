@@ -1,4 +1,4 @@
-React useEffect Practice 🧠⚛️
+# React useEffect Practice 🧠⚛️
 
 This project is built to practice and understand the behavior of useEffect in React using different dependency array scenarios.
 It focuses on learning when and why useEffect runs during a component’s lifecycle.
@@ -17,16 +17,16 @@ State updates
 
 Every render
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
-React
+-React
 
-JavaScript (ES6+)
+-JavaScript (ES6+)
 
-Fetch API
+-Fetch API
 
-JSONPlaceholder API
+-JSONPlaceholder API
 
-HTML
+-HTML
 
-CSS
+-CSS
