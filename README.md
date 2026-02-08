@@ -5,17 +5,17 @@ It focuses on learning when and why useEffect runs during a component’s lifecy
 
 🎯 Objective
 
-Learn how useEffect works in React
+-Learn how useEffect works in React
 
-Understand dependency arrays
+-Understand dependency arrays
 
-Observe effect execution on:
+-Observe effect execution on:
 
-Component mount
+-Component mount
 
-State updates
+-State updates
 
-Every render
+-Every render
 
 ## 🛠 Tech Stack
 
