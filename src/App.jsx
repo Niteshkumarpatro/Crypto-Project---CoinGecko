@@ -1,11 +1,17 @@
 
 import './App.css'
 import CoinTable from "./components/CoinTable/CoinTable";
+import Navbar from "./components/Navbar/Navbar";
+import Banner from './components/Banner/Banner';
 
 function App() {
 
   return (
-    <><CoinTable /></>
+    <>
+      <Navbar />
+      <Banner/>
+      <CoinTable />
+    </>
   )
 }
 
