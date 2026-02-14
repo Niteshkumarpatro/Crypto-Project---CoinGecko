@@ -1,4 +1,6 @@
-function NavBar() {
+
+
+function NavBar({  setCurrency }) {
     return (
 
         <>
@@ -11,9 +13,9 @@ function NavBar() {
                         <ul
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Homepage</a></li>
-                            <li><a>Portfolio</a></li>
-                            <li><a>About</a></li>
+                            <li onClick={() => setCurrency('inr')}><a>INR</a></li>
+                            <li onClick={() => setCurrency('usd')}><a>USD</a></li>
+
                         </ul>
                     </div>
                 </div>
