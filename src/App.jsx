@@ -6,6 +6,7 @@ import './App.css'
 import Routing from './components/Routing/Routing';
 
 
+
 function App() {
 
   // const [currency, setCurrency] = useState('usd');
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       {/* <CurrencyContext.Provider value={{currency,setCurrency}}> */}
+     
       <Routing />
       {/* </CurrencyContext.Provider > */}
     </>
