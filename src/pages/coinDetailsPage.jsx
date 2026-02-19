@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom"
 
 import { fetchCoinDetails } from "../services/fetchCoinDetails";
-import parse from "html-react-Parser";
+import parse from "html-react-parser";
 import currencyStore from "../state/store";
 
 function CoinDetailsPage() {
