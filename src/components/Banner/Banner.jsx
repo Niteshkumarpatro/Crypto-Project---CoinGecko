@@ -1,4 +1,4 @@
-import BannerImage from "../../assets/Banner.png";
+import BannerImage from "../../assets/BANNER.PNG";
 
 function Banner() {
     return (
@@ -12,13 +12,13 @@ function Banner() {
                 <div className="flex flex-col gap-4">
 
 
-                    <div className="font-semibold text-5xl text-black">
+                    <div className="font-semibold text-5xl text-white">
 
 
                         Crypto Tracker
 
                     </div>
-                    <div className="font-semibold text-sm text-black text-center">
+                    <div className="font-semibold text-sm text-gray-300 text-center">
 
                         Track the latest cryptocurrency prices and market trends
 
