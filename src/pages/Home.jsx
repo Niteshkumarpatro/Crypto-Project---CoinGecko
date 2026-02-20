@@ -6,7 +6,7 @@ function Home() {
     return (
         <>
            
-            <Banner />
+            <Banner/>
             <CoinTable />
         </>
     )
