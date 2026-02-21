@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import MainLayout from "../../pages/Layout";
-import PageLoader from "../pageLoader/pageLoader";
+import PageLoader from "../pageLoader/PageLoader";
 
 const Home = lazy(() => import("../../pages/Home"));
-const CoinDetailsPage = lazy(() => import("../../pages/coinDetailsPage"))
+const CoinDetailsPage = lazy(() => import("../../pages/CoinDetailsPage"))
 
 function Routing() {
     return (

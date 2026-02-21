@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom"
 import { fetchCoinDetails } from "../services/fetchCoinDetails";
 import parse from "html-react-parser";
 import currencyStore from "../state/store";
-import PageLoader from "../components/pageLoader/pageLoader";
+import PageLoader from "../components/pageLoader/PageLoader";
 
 function CoinDetailsPage() {
 
