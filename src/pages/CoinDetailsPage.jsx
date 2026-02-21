@@ -56,4 +56,4 @@ function CoinDetailsPage() {
 
 
 }
-export default CoinDetailsPage;
+export default CoinDetailsPage; 

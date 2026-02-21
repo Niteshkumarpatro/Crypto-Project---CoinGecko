@@ -5,6 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 // import { CurrencyContext } from "../../context/CurrencyContext";
 import currencyStore from "../../state/store";
 import { useNavigate } from "react-router-dom";
+import PageLoader from "../PageLoader/PageLoader";
 function CoinTable({ }) {
 
 
@@ -30,6 +31,13 @@ function CoinTable({ }) {
 
     if (isError) {
         return <div>Error: {error.message}</div>
+
+
+    }
+
+
+    if(isLoading){
+       return <PageLoader/> 
     }
     return (
         <div className="my-5 flex flex-col items-center justify-center gap-5 w-[80vw] mx-auto " >
