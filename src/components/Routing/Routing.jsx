@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import MainLayout from "../../pages/Layout";
-import PageLoader from "../pageLoader/PageLoader";
+import PageLoader from "../PageLoader/PageLoader";
 
 const Home = lazy(() => import("../../pages/Home"));
 const CoinDetailsPage = lazy(() => import("../../pages/CoinDetailsPage"))
