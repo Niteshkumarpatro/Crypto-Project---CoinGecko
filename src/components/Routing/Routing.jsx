@@ -4,7 +4,9 @@ import MainLayout from "../../pages/Layout";
 import PageLoader from "../PageLoader/PageLoader";
 
 const Home = lazy(() => import("../../pages/Home"));
-const CoinDetailsPage = lazy(() => import("../../pages/CoinDetailsPage"))
+const CoinDetailsPage = lazy(() =>
+  import("../../pages/CoinDetailsPage.jsx")
+);
 
 function Routing() {
     return (
