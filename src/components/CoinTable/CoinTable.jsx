@@ -65,7 +65,7 @@ function CoinTable({ }) {
 
                             >
                                 <div className="w-[5rem] h-[5rem]">
-                                    <img src={coin.image} className="w-full h-full" />
+                                    <img src={coin.image} className="w-full h-full " loading="lazy"/>
                                 </div>
                                 <div className="flex flex-col">
                                     <div className="text-3xl">{coin.name}
